@@ -24,6 +24,9 @@ public class MainApplication {
             System.out.println(name);
         });*/
 
+        User user11 = run.getBean("user1", User.class);
+        System.out.println(user11);
+
         User user = run.getBean("lencho", User.class);
 
         MyConfig config = run.getBean(MyConfig.class);

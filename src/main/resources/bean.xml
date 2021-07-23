@@ -3,8 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user" class="com.lencho.boot.bean.User">
+    <bean id="user1" class="com.lencho.boot.bean.User">
         <property name="age" value="18"></property>
-        <property name="name" value="张三"></property>
+        <property name="name" value="王花花"></property>
     </bean>
 </beans>
