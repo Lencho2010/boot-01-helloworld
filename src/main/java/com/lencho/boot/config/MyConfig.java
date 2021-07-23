@@ -15,6 +15,6 @@ public class MyConfig {
 
     @Bean("lencho")
     public User user(){
-        return new User("lisi",16);
+        return new User("李四",16);
     }
 }
